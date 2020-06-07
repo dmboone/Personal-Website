@@ -6,3 +6,45 @@ font-family: 'Megrim', cursive;
 }
 */
 
+.primary-font {
+   color:  #fefcfb;
+   font-family: 'Megrim', cursive; 
+}
+
+.secondary-font {
+    font-family: 'Open Sans';
+}
+
+body {
+    background-color: #034078;
+}
+
+h1 {
+    display: block;
+    font-size: 300px;
+    letter-spacing: 25px;
+    margin: 0;
+}
+
+h2, h3{
+    display: inline-block;
+}
+
+h2 a {
+    text-decoration: none;
+    color: #fefcfb;
+    font-size: 50px;
+    margin: 30px 100px 20px 20px;
+}
+
+#social h3 a {
+    text-decoration: none;
+    color: #034078;
+    background-color: #fefcfb;
+    padding: 10px;
+    font-size: 25px;
+    margin: 0px 5px;
+    border-radius: 25%;
+}
+
+
