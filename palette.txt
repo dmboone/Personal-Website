@@ -1,0 +1,13 @@
+/* Coolors Exported Palette - https://coolors.co/0a1128-001f54-034078-1282a2-fefcfb */
+
+/* CSV */
+0a1128,001f54,034078,1282a2,fefcfb
+
+/* Array */
+["0a1128","001f54","034078","1282a2","fefcfb"]
+
+/* Object */
+{"Oxford Blue":"0a1128","Royal Blue Dark":"001f54","Indigo Dye":"034078","Celadon Blue":"1282a2","White":"fefcfb"}
+
+/* Extended Array */
+[{"name":"Oxford Blue","hex":"0a1128","rgb":[10,17,40],"cmyk":[75,57,0,84],"hsb":[226,75,16],"hsl":[226,60,10],"lab":[5,4,-16]},{"name":"Royal Blue Dark","hex":"001f54","rgb":[0,31,84],"cmyk":[100,63,0,67],"hsb":[218,100,33],"hsl":[218,100,16],"lab":[13,13,-35]},{"name":"Indigo Dye","hex":"034078","rgb":[3,64,120],"cmyk":[97,46,0,52],"hsb":[209,98,47],"hsl":[209,95,24],"lab":[26,5,-36]},{"name":"Celadon Blue","hex":"1282a2","rgb":[18,130,162],"cmyk":[88,19,0,36],"hsb":[193,89,64],"hsl":[193,80,35],"lab":[50,-17,-25]},{"name":"White","hex":"fefcfb","rgb":[254,252,251],"cmyk":[0,0,1,0],"hsb":[20,1,100],"hsl":[20,60,99],"lab":[99,0,0]}]

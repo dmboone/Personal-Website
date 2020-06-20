@@ -1,11 +1,4 @@
-/*
-font-family: 'Megrim', cursive;
-
-{
-    font-family: 'Open Sans';
-}
-*/
-
+/* Fonts */
 .primary-font {
    color:  #fefcfb;
    font-family: 'Megrim', cursive; 
@@ -15,8 +8,22 @@ font-family: 'Megrim', cursive;
     font-family: 'Open Sans';
 }
 
+/* Important settings to make body fill the entire screen! */
+html {
+    height: 100%;
+}
+
 body {
     background-color: #034078;
+    font-family: "Open Sans";
+    min-height: 100%;
+    margin: 0px;
+}
+
+/* INDEX */
+
+a {
+    text-decoration: none;
 }
 
 h1 {
@@ -31,14 +38,12 @@ h2, h3{
 }
 
 h2 a {
-    text-decoration: none;
     color: #fefcfb;
     font-size: 50px;
     margin: 30px 100px 20px 20px;
 }
 
 #social h3 a {
-    text-decoration: none;
     color: #034078;
     background-color: #fefcfb;
     padding: 10px;
@@ -47,4 +52,82 @@ h2 a {
     border-radius: 25%;
 }
 
+/* ABOUT ME */
+.grid {
+    position: absolute;
+    display: grid;
+    grid-template-columns: 1fr 10fr 8fr;
+    grid-template-rows: 1fr 1fr auto;
+    column-gap: 0px;
+    height: 100%;
+    width: 100%;
+}
+
+/* Navigation Bar */
+.about aside {
+    display: grid;
+}
+
+.about .nav {
+    grid-column: 1;
+    place-self: center;
+    font-family: "Megrim", cursive;
+    font-size: 50px;
+    letter-spacing: 5px;
+    background-color: #034078;
+    color: #fefcfb;
+}
+
+/* Title */
+.about header {
+    display: grid;
+    grid-row: 1 / span 2;
+    grid-column: 2;
+    background-color: #fefcfb;
+}
+
+.about #aboutMe {
+    place-self: center;
+    font-family: "Megrim", cursive;
+    font-size: 10em;
+    letter-spacing: 5px;
+    color: #fefcfb;
+    text-shadow:
+		-2px -2px 0 #034078,
+		2px -2px 0 #034078,
+		-2px 2px 0 #034078,
+		2px 2px 0 #034078;
+}
+
+/* Image */
+.about figure {
+    display: grid;
+    grid-row: 1 / span 3;
+    grid-column: 3;
+    margin: 0;
+}
+
+.about #portrait {
+    position: relative;
+    place-self: center;
+    display: block;
+}
+
+/* Paragraph Element */
+.about main {
+    display: grid;
+    grid-row: 3;
+    grid-column: 2;
+    background: #fefcfb;
+    min-width: 100%;
+    min-height: 100%;  
+}
+
+.about p {
+    display: block;
+    margin: 0px;
+    padding: 0px 100px 100px 100px;
+    font-family: "Open Sans";
+    font-size: 25px;
+}
 
