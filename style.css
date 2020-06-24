@@ -31,6 +31,7 @@ h1 {
     font-size: 300px;
     letter-spacing: 25px;
     margin: 0;
+    width: '100%';
 }
 
 h2, h3{
@@ -41,6 +42,7 @@ h2 a {
     color: #fefcfb;
     font-size: 50px;
     margin: 30px 100px 20px 20px;
+    padding: 0px 30px;
 }
 
 #social h3 a {
@@ -51,6 +53,11 @@ h2 a {
     margin: 0px 5px;
     border-radius: 25%;
 }
+
+figure {
+    display: inline-block;
+}
+
 
 /* ABOUT ME */
 .grid {
