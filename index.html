@@ -2,39 +2,198 @@
 <html>
   <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Destiny Boone</title>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Megrim&display=swap">
+    <link href="https://fonts.googleapis.com/css2?family=Concert+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="style.css">
   </head>
   <body class="index">
     <script type="text/javascript" src="script.js"></script>
+   
+    <div class="scroll">
+      <ul class = "stick">
+        <li id="logo" style="float: left; visibility: hidden;"><a href="index.html">Destiny Boone</a></li>
+        <li style="float: right"><a href="about.html">About Me</a></li>
+        <li style="float: right"><a href="design.html">Design</a></li>
+        <li style="float: right"><a href="art_level1.html">Art</a></li>
+        <li style="float: right"><a href="code.html">Code</a></li>
+        <li style="float: right"><a class="active" href="index.html">Home</a></li>
+      </ul>
 
-    <h1 class="primary-font">Destiny<br>Boone</h1>
+      <section>
+        <h1 class="primary-font tertiary-color">Destiny<br>Boone</h1>
+        
+        <div class="primary-font">
+            <h3>Developer</h3>
+            <h3>Designer</h3>
+            <h3>Creative</h3>
+        </div>
 
-    <!--
-      <figure>
-      <img src="./Images/Watercolor Portrait.jpg" width="20%">
-    </figure>
-    -->
-  
-    <nav class="primary-font">
-        <h2><a onmouseover="change(this);" onmouseout="revert(this);" href="art.html">Art</a></h2>
-        <h2><a onmouseover="change(this);" onmouseout="revert(this);" href="code.html">Code</a></h2>
-        <h2><a onmouseover="change(this);" onmouseout="revert(this);" href="design.html">Design</a></h2>
-        <h2><a onmouseover="change(this);" onmouseout="revert(this);" href="about.html">About Me</a></h2>
-        <h2><a onmouseover="change(this);" onmouseout="revert(this);" href="experience.html">Experience</a></h2>
-    </nav>
-    
-    <div id="social">
-        <h3><a onmouseover="change(this);" onmouseout="revert(this);" href="https://www.linkedin.com/in/destiny-boone-18010b176/" class="fa fa-linkedin"
-        target="_blank"></a></h3>
-        <h3><a onmouseover="change(this);" onmouseout="revert(this);" href="https://github.com/dmboone" class="fa fa-github"
-          target="_blank"></a></h3>
-        <h3><a onmouseover="change(this);" onmouseout="revert(this);" href="https://www.instagram.com/dboone7418/" class="fa fa-instagram"
-        target="_blank"></a></h3>
-        <h3><a onmouseover="change(this);" onmouseout="revert(this);" href="https://www.youtube.com/channel/UCLMW8zODx8625He0ik06stg?view_as=subscriber" class="fa fa-youtube"
-        target="_blank"></a></h3>
+        <div id="social">
+            <a href="https://www.linkedin.com/in/destiny-boone-18010b176/" class="fa fa-linkedin"
+            target="_blank"></a>
+            <a href="https://github.com/dmboone" class="fa fa-github"
+            target="_blank"></a>
+            <a href="https://www.instagram.com/dboone7418/" class="fa fa-instagram"
+            target="_blank"></a>
+            <a href="https://www.youtube.com/channel/UCLMW8zODx8625He0ik06stg?view_as=subscriber" class="fa fa-youtube"
+            target="_blank"></a>
+        </div>
+      </section>
+
+      <section onmouseover="document.getElementById('logo').style.visibility='visible'" class="about">
+        <div class="left-col">
+          <h2 class="primary-font tertiary-color">About Me</h2>
+          <p>A creative at heart, I enjoy bringing visions to life in the digital and physical sphere.<br>
+            <br>
+            Currently I'm an undergraduate at Clemson University studying Computer Science and Digital Production Arts. 
+            I'm most interested in front-end development, data visualization, machine learning, and data science.<br>
+            <br>
+            Scroll down to see highlights of my work. Explore further for a closer look at my development projects, design work, and my art portfolio
+          </p>
+          <a class="button primary primary-font tertiary-color" href="about.html">Learn More</a>
+        </div>
+        <div class="right-col">
+          <figure>
+            <img class="circle" src="Images/Destiny Boone_square.jpg" width="80%"/>
+          </figure>
+        </div>
+      </section>
+
+      <section>
+        <div class="row">
+          <h2 class="primary-font tertiary-color">Development</h2>
+          <div class="gallery-image">
+            <div class="img-box drop-shadow">
+              <img src="Images/Spotify-Logo.png" width="100%" alt="Portrait" 
+              onerror="this.onerror=null; this.src='./Images/Spirited_Train.jpg'"/>
+              <div class="transparent-box">
+                <div class="caption">
+                  <p>Music Prediction using Logistic Regression</p>
+                  <p class="opacity-low">Machine Learning, Python</p>
+                  <a class="button primary-font tertiary-color" href="#">Learn More</a>
+                </div>
+              </div> 
+            </div>
+            <div class="img-box drop-shadow">
+              <img src="Images/StemFest_Logo.png" width="100%" alt="Blue House" 
+              onerror="this.onerror=null; this.src='./Images/Spirited_Train.jpg'"/>
+              <div class="transparent-box">
+                <div class="caption">
+                  <p>StemFest App</p>
+                  <p class="opacity-low">Mobile Application, React, UI/UX</p>
+                  <a class="button primary-font tertiary-color" href="#">Learn More</a>
+                </div>
+              </div>
+            </div>
+            <div class="img-box drop-shadow">
+              <img src="Images/GDO_Logo.jpg" width="100%" alt="Blue House" 
+              onerror="this.onerror=null; this.src='./Images/Spirited_Train.jpg'"/>
+              <div class="transparent-box">
+                <div class="caption">
+                  <p>Girl's Day Out Website</p>
+                  <p class="opacity-low">Web Development, HTML, CSS</p>
+                  <a class="button primary-font tertiary-color" href="#">Learn More</a>
+                </div>
+              </div>
+            </div>
+            <a class="button fit primary-font tertiary-color" href="code.html">See More</a>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="row">
+          <h2 class="primary-font secondary-color">Art</h2>
+          <div class="gallery-image">
+            <div class="img-box drop-shadow">
+              <img src="Images/Watercolor Portrait.jpg" width="100%" alt="Portrait" 
+              onerror="this.onerror=null; this.src='./Images/Spirited_Train.jpg'"/>
+              <div class="transparent-box">
+                <div class="caption">
+                  <p>Portrait</p>
+                  <p class="opacity-low">Watercolor</p>
+                </div>
+              </div> 
+            </div>
+            <div class="img-box drop-shadow">
+              <img src="Images/Spirited_Train.jpg" width="100%" alt="Blue House" 
+              onerror="this.onerror=null; this.src='./Images/Spirited_Train.jpg'"/>
+              <div class="transparent-box">
+                <div class="caption">
+                  <p>Spirited Away - Train Scene</p>
+                  <p class="opacity-low">Watercolor</p>
+                </div>
+              </div>
+            </div>
+            <div class="img-box drop-shadow">
+              <img src="Images/Watercolor House.jpg" width="100%" alt="Blue House" 
+              onerror="this.onerror=null; this.src='./Images/Spirited_Train.jpg'"/>
+              <div class="transparent-box">
+                <div class="caption">
+                  <p>Blue House</p>
+                  <p class="opacity-low">Watercolor</p>
+                </div>
+              </div>
+            </div>
+            <a class="button fit primary-font secondary-color" href="art.html">See More</a>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="row">
+          <h2 class="primary-font secondary-color">Design</h2>
+          <div class="gallery-image">
+            <div class="img-box drop-shadow">
+              <img src="Images/Walking template Full color-01.png" height="100%" alt="Portrait" 
+              onerror="this.onerror=null; this.src='./Images/Spirited_Train.jpg'"/>
+              <div class="transparent-box">
+                <div class="caption">
+                  <p>Innovation</p>
+                </div>
+              </div> 
+            </div>
+            <div class="img-box drop-shadow">
+              <img src="Images/Inside Comp PNG-01.png" width="100%" alt="Blue House" 
+              onerror="this.onerror=null; this.src='./Images/Spirited_Train.jpg'"/>
+              <div class="transparent-box">
+                <div class="caption">
+                  <p>Two Halves</p>
+                </div>
+              </div>
+            </div>
+            <div class="img-box drop-shadow">
+              <img src="Images/VEG_Logo_PurpleHeadset_NoBckgrd_Purple Headset No Bckgrd.png" width="100%" alt="Blue House" 
+              onerror="this.onerror=null; this.src='./Images/Spirited_Train.jpg'"/>
+              <div class="transparent-box">
+                <div class="caption">
+                  <p>Clemson Virtual Reality</p>
+                </div>
+              </div>
+            </div>
+            <a class="button fit primary-font secondary-color" href="art.html">See More</a>
+          </div>
+        </div>
+      </section>
+
+      <section>
+       
+        <h1 class="primary-font tertiary-color">Thanks for Visiting.</h1>
+        
+        <div id="social">
+            <a href="https://www.linkedin.com/in/destiny-boone-18010b176/" class="fa fa-linkedin"
+            target="_blank"></a>
+            <a href="https://github.com/dmboone" class="fa fa-github"
+            target="_blank"></a>
+            <a href="https://www.instagram.com/dboone7418/" class="fa fa-instagram"
+            et="_blank"></a>
+            <a href="https://www.youtube.com/channel/UCLMW8zODx8625He0ik06stg?view_as=subscriber" class="fa fa-youtube"
+            target="_blank"></a>
+        </div>
+      </section>
     </div>
   </body>
 </html>
