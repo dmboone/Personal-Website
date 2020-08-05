@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Destiny Boone</title>
+    <link href="https://fonts.googleapis.com/css2?family=Concert+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body class="design">
+
+
+    <div style = "padding-top: 2em; display: grid; grid-template-rows: 2;">
+
+      <ul style = "grid-row: 1;" class = "navbar secondary-color">
+        <li id="logo" style="float: left;"><a href="index.html">Destiny Boone</a></li>
+        <li style="float: right"><a href="about.html">About Me</a></li>
+        <li style="float: right"><a href="design.html">Design</a></li>
+        <li style="float: right"><a class="active" href="art_level1.html">Art</a></li>
+        <li style="float: right"><a href="code.html">Code</a></li>
+        <li style="float: right"><a href="index.html">Home</a></li>
+      </ul>
+
+      <div style="grid-row: 2; padding-top: 8em">
+
+       
+        <div class="gallery-image">
+           <!-- The Modal -->
+          <div id="myModal" class="modal">
+            <span class="close">&times;</span>
+            <img class="modal-content" id="img01">
+            <div id="caption"></div>
+          </div>
+       
+          <div onclick="pop(this)" class="img-box">
+            <img src="Images/Alicia_Keys.jpg" height="100%" alt="Alicia Keys" 
+            onerror="this.onerror=null; this.src='./Images/Spirited_Train.jpg'"/>
+            <div class="transparent-box">
+              <div class="caption">
+                <p>Alicia</p>
+                <p class="opacity-low">Graphite/Colored Pencil</p>
+              </div>
+            </div>
+          </div>
+          <div onclick="pop(this)" class="img-box">
+            <img src="Images/Girl_Caricature.jpg" width="100%" alt="Girl Caricature" 
+            onerror="this.onerror=null; this.src='./Images/Spirited_Train.jpg'"/>
+            <div class="transparent-box">
+              <div class="caption">
+                <p>Caricature</p>
+                <p class="opacity-low">Graphite</p>
+              </div>
+            </div>
+          </div>
+          <div onclick="pop(this)" class="img-box">
+            <img src="Images/Kingdom_Hearts.jpg" width="100%" alt="Kingdom Hearts" 
+            onerror="this.onerror=null; this.src='./Images/Spirited_Train.jpg'"/>
+            <div class="transparent-box">
+              <div class="caption">
+                <p>Kingdom Hearts</p>
+                <p class="opacity-low">Graphite</p>
+              </div>
+            </div>
+          </div>
+          <div onclick="pop(this)" class="img-box">
+            <img src="Images/Man_Portrait.jpg" width="100%" alt="Male Portrait" 
+            onerror="this.onerror=null; this.src='./Images/Spirited_Train.jpg'"/>
+            <div class="transparent-box">
+              <div class="caption">
+                <p>Male Portrait</p>
+                <p class="opacity-low">Graphite</p>
+              </div>
+            </div>
+          </div>
+          <div onclick="pop(this)" class="img-box">
+            <img src="Images/Music_Zen.jpg" width="100%" alt="Zentangle Music" 
+            onerror="this.onerror=null; this.src='./Images/Spirited_Train.jpg'"/>
+            <div class="transparent-box">
+              <div class="caption">
+                <p>Music Transcends</p>
+                <p class="opacity-low">Ink</p>
+              </div>
+            </div>
+          </div>
+          <div onclick="pop(this)" class="img-box">
+            <img src="Images/Pride_Zen.jpg" width="100%" alt="Zentangle Pride" 
+            onerror="this.onerror=null; this.src='./Images/Spirited_Train.jpg'"/>
+            <div class="transparent-box">
+              <div class="caption">
+                <p>Pride</p>
+                <p class="opacity-low">Ink</p>
+              </div>
+            </div>
+          </div>
+          <div onclick="pop(this)" class="img-box">
+            <img src="Images/Puff_Girl.jpg" width="100%" alt="Female Portrait" 
+            onerror="this.onerror=null; this.src='./Images/Spirited_Train.jpg'"/>
+            <div class="transparent-box">
+              <div class="caption">
+                <p>Puff Girl</p>
+                <p class="opacity-low">Graphite</p>
+              </div>
+            </div>
+          </div>
+          <div onclick="pop(this)" class="img-box">
+            <img src="Images/Zen_Full.jpg" width="100%" alt="Zentangle" 
+            onerror="this.onerror=null; this.src='./Images/Spirited_Train.jpg'"/>
+            <div class="transparent-box">
+              <div class="caption">
+                <p>Triangles</p>
+                <p class="opacity-low">Ink</p>
+              </div>
+            </div>
+          </div>
+          <script type="text/javascript" src="script.js"></script>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
